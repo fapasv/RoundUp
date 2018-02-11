@@ -47,7 +47,7 @@
                 <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
               </div>
         <div class="form-label-group" style="padding-top:20px">
-              <button class="btn btn-lg btn-danger btn-block" type="submit">INGRESAR</button>
+              <button class="btn btn-danger btn-block" type="submit">INGRESAR</button>
         </div>
               <div class="form-label-group" style="padding-top:20px">
                 <div class="text-center mb-4">
