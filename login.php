@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<form>
+<form action="index.php" method="post">
   <div class="wrapper">
     <div id="content">
       <!-- Navegación y Encabezado -->

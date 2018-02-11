@@ -20,7 +20,7 @@
               <b>BIENVENIDO</b></br> Juan Pérez</a>
             </li>
             <li class="nav-item">
-              <a class="signout" href="#">
+              <a class="signout" href="login.php">
                    Salir
               </a>
             </li>

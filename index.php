@@ -21,6 +21,7 @@
     <?php include 'includes/sidebar.php';?>
     <!-- Contenido de pagina -->
     <div id="content">
+
       <!-- Navegación y Encabezado -->
       <?php include 'includes/navbar.php';?>
       <!--Contenido-->
@@ -28,7 +29,7 @@
 
   <?php
     $currentpage = $_SERVER['REQUEST_URI'];
-    if($currentpage=="/index.php") {
+    if($currentpage == "/index.php" || $currentpage == "/") {
       include 'includes/home.php';
     }
   ?>
