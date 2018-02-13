@@ -21,7 +21,7 @@
   <div class="wrapper">
     <div id="content">
       <!-- Navegación y Encabezado -->
-      <?php include 'includes/navbar.php';?>
+      <?php include 'views/navbar.php';?>
 <!--Contenido-->
       <div class="container">
 
@@ -64,6 +64,6 @@
       </div>
       <!-- Contenido -->
       <!-- Pie de página y llamadas js -->
-      <?php include 'includes/footer.php';?>
+      <?php include 'views/footer.php';?>
     </form>
     </body></html>

@@ -2,7 +2,12 @@
   $currentpage = $_SERVER['REQUEST_URI'];
 ?>
 <nav class="navbar navbar-default">
+
     <div class="container-fluid">
+      <!-- LOGO -->
+      <a class="logo navbar-brand navbar-right" href="index.php">
+        <img src="images/logo.png" alt="home" class="dark-logo">
+      </a>
       <?php if(strpos($currentpage,'/login.php') === false) {?>
       <!-- TOOGLE SIDEBAR -->
         <div class="navbar-header">
@@ -26,14 +31,6 @@
             </li>
           </ul>
         <?php }; ?>
-          <!-- LOGO -->
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a class="logo" href="#">
-                  <img src="images/logo.png" alt="home" class="dark-logo">
-                </a>
-              </li>
-            </ul>
         </div>
     </div>
 </nav>

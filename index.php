@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="css/fontawesome.min.css">
   <!-- Scrollbar Personalizado CSS -->
   <link rel="stylesheet" href="css/jquery.css">
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" href="css/datatables.css">
   <!-- CSS Personalizado -->
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -18,24 +20,35 @@
 
   <div class="wrapper">
     <!-- Sidebar -->
-    <?php include 'includes/sidebar.php';?>
+    <?php include 'views/sidebar.php';?>
     <!-- Contenido de pagina -->
     <div id="content">
 
       <!-- Navegación y Encabezado -->
-      <?php include 'includes/navbar.php';?>
+      <?php include 'views/navbar.php';?>
       <!--Contenido-->
-      <div class="container">
+
 
   <?php
-    $currentpage = $_SERVER['REQUEST_URI'];
-    if($currentpage == "/index.php" || $currentpage == "/") {
-      include 'includes/home.php';
-    }
+  if(isset($_GET["view"])){
+
+      switch ($_GET['view']) {
+        case 'useradmin':
+          include 'views/useradmin.php';
+          break;
+
+        default:
+          include 'views/home.php';
+          break;
+      }
+
+  }else{
+    include 'views/home.php';
+  }
   ?>
 
-      </div>
+
       <!-- Contenido -->
       <!-- Pie de página y llamadas js -->
-      <?php include 'includes/footer.php';?>
+      <?php include 'views/footer.php';?>
     </body></html>

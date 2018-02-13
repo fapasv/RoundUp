@@ -1,3 +1,4 @@
+<div class="container" >
 <div class="row text-center">
   <p style="padding-bottom:10px">¡Aquí esta un resumen de tu actividad¡</p>
 </div>
@@ -20,51 +21,48 @@
 
 <div class="row" style="margin-top:40px">
   <div class="col col-sm-6 col-xs-12 cont-right">
-      <img src="/images/glines.png"/>
-      <div class="text-center">
-        <div>
-          <b>REPORTE DE CAJA</b>
-        </div>
-        <div>
-          <i><small>Última actualización: Sábado 27-01-2018 // 20:54 hrs</small></i>
-        </div>
-      </div>
+    <div>
+    <img src="/images/glines.png"/><br />
+    <p class="text-center thinContent">
+        <b>REPORTE DE CAJA</b>
+      <br />
+        <i><small>Última actualización: Sábado 27-01-2018 // 20:54 hrs</small></i>
+    </p>
+  </div>
   </div>
   <div class="col col-sm-6 col-xs-12 cont">
-      <img src="/images/gbars.png"/>
-      <div class="text-center">
-        <div>
-          <b>REPORTE DE CAJA</b>
-        </div>
-        <div>
-          <i><small>Última actualización: Sábado 27-01-2018 // 20:54 hrs</small></i>
-        </div>
-      </div>
+    <div>
+    <img src="/images/gbars.png"/><br />
+    <p class="text-center thinContent">
+        <b>REPORTE DE CAJA</b>
+    <br/>
+        <i><small>Última actualización: Sábado 27-01-2018 // 20:54 hrs</small></i>
+    </p>
+  </div>
   </div>
 
   <div class="clearfix visible-xs-block"></div>
 
   <div class="col col-sm-6 col-xs-12 cont-right">
-      <img src="/images/gbars.png"/>
-      <div class="text-center">
-        <div>
+    <div>
+      <img src="/images/gbars.png"/><br />
+      <p class="text-center thinContent">
           <b>REPORTE DE CAJA</b>
-        </div>
-        <div>
+      <br/>
           <i><small>Última actualización: Sábado 27-01-2018 // 20:54 hrs</small></i>
-        </div>
-      </div>
+      </p>
+    </div>
   </div>
 
   <div class="col col-sm-6 col-xs-12 cont">
-      <img src="/images/glines.png"/>
-      <div class="text-center">
-        <div>
+    <div>
+      <img src="/images/glines.png"/><br />
+      <p class="text-center thinContent">
           <b>REPORTE DE CAJA</b>
-        </div>
-        <div>
+        <br />
           <i><small>Última actualización: Sábado 27-01-2018 // 20:54 hrs</small></i>
-        </div>
-      </div>
+      </p>
+    </div>
   </div>
 </div>
+  </div>

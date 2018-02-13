@@ -20,7 +20,7 @@
               <img src="images/icono_menu-usuario.png" />
               usuario</a>
             <ul class="collapse list-unstyled" id="usuarioSubmenu">
-                <li><a href="#">Ops 1</a></li>
+                <li><a href="index.php?view=useradmin">Gestión de Usuario</a></li>
                 <li><a href="#">Ops 2</a></li>
                 <li><a href="#">Ops 3</a></li>
             </ul>
