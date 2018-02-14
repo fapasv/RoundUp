@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="css/jquery.css">
   <!-- DataTables CSS -->
   <link rel="stylesheet" href="css/datatables.css">
+  <!-- Switcher CSS -->
+  <link rel="stylesheet" href="css/switcher.css">
   <!-- CSS Personalizado -->
   <link rel="stylesheet" href="css/style.css">
 </head>

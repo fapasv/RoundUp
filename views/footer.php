@@ -42,14 +42,23 @@ $(document).ready(function () {
     $('.collapse.in').toggleClass('in');
     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
   });
-
-  $('#usrtable').DataTable(
+var oTable = $('#usrtable').DataTable(
     {
-       searching: false,
+      "order": [],
+      "columnDefs": [ {
+        "targets"  : 'no-sort',
+        "orderable": false,
+      }],
       "bLengthChange": false,
-      "info":     false
+      "info":     false,
+
     }
   );
+
+  $('#txtbuscar').keyup( function () {
+    oTable.search(this.value).draw();
+//oTable.fnFilter( this.value );
+} );
 
 });
 </script>

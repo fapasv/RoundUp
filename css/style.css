@@ -69,9 +69,9 @@ a, a:hover, a:focus {
   background: transparent;
 }
 .navbar-default{
-    background: url("../images/slice_1_1.png") repeat;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    padding:5px;
+  background: url("../images/slice_1_1.png") repeat;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  padding:5px;
 }
 .navbar-default .navbar-nav > li > a{
   border-radius: 6px;
@@ -115,11 +115,12 @@ a, a:hover, a:focus {
   background-color: #535353;
   text-transform: uppercase;
   font-size: small;
-    font-family: Roboto-Bold;
-    text-align: center;
+  font-family: Roboto-Bold;
+  text-align: center;
+  margin:0px;
 }
 .breadcrumb>li+li:before {
-    content: "-";
+  content: "-";
 }
 .breadcrumb>.active {
   font-family: Roboto-Light;
@@ -212,23 +213,23 @@ LOGIN STYLE
 
 
 .form-control{
-  border-radius: 20px;
+  border-radius: 20px !important;
   border: 1px solid #fff;
   background-color: #000;
   color: #fff;
 }
 
 .input-group .form-control{
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 0px 20px 20px 0px !important;
 }
 
 .input-group-addon {
 
-    color: #fff;
-    text-align: center;
-    background-color: #000;
-    border: 1px solid #fff;
-    border-radius: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border: 1px solid #fff;
+  border-radius: 20px;
 }
 
 .form-label-group{
@@ -280,6 +281,20 @@ small, .small{
 }
 
 .thinContent b{ font-family: Roboto-Thin; letter-spacing: 2px;}
+
+@media (max-width: 991px) and (min-width: 768px){
+  .cont-expand .btn {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px){
+.cont-expand .btn {
+  display: block;
+  width: 100%;
+  }
+}
 
 /* ------------------
 SIDEBAR STYLE
@@ -420,29 +435,119 @@ a.article, a.article:hover {
   border-bottom-right-radius: 20px;
 }
 
-  .pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
-    background-color: transparent;
-    border-color: #ddd;
-  }
-  .pagination>li>a, .pagination>li>span {
-    background-color: transparent;
-    border: 1px solid #ddd;
-    color: #fff;
-  }
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+  background-color: transparent;
+  border-color: #ddd;
+}
+.pagination>li>a, .pagination>li>span {
+  background-color: transparent;
+  border: 1px solid #ddd;
+  color: #fff;
+}
 
-  .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
-    background-color: #ae0000;
-    border-color: #ae0000;
-  }
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  background-color: #ae0000;
+  border-color: #ae0000;
+}
 
-  .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-    color: #000;
-  }
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+  color: #000;
+}
 
 .dataTables_wrapper .dataTables_filter{
-  float: left;
+  display: none;
 }
 .dataTables_wrapper .dataTables_actions{
   margin-left: 200px;
   text-align: center;
 }
+
+
+/*---------------------------------------------------------------------------
+  MODAL STYLE
+----------------------------------------------------------------------------*/
+
+.modal-header .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  opacity: 0.8;
+  text-shadow: none;
+  border: solid 2px #fff;
+  border-radius: 35px;
+  font-size: 18px;
+  padding: 0px 4.5px;
+}
+.modal-header .close:focus, .modal-header .close:hover {
+  opacity: 1;
+}
+.modal-title {
+  text-align: center;
+  font-family: Roboto-Regular;
+    text-transform: uppercase;
+}
+.modal-content {
+  border:solid 2px #fff;
+  background: url("../images/slice_1_1.png") repeat;
+  border-radius: 20px;
+}
+
+.modal-content .form-label-group{
+  padding: 0px;
+}
+
+.modal-content .form-control{
+  background-color: #bcbcbc;
+  color: #000;
+  margin: 5px;
+}
+
+
+
+.modal-content ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000;
+    opacity: 1; /* Firefox */
+}
+.modal-content :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #000;
+}
+.modal-content ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #000;
+}
+
+.modal-content .input-group{
+  margin: 5px;
+  width: 100%;
+}
+
+.modal-content .input-group .input-group-addon {
+  color: #000;
+  text-align: center;
+  background-color:#bcbcbc;
+  border: 1px solid #fff;
+  border-radius: 20px 0px 0px 20px;
+  border-right: 0px;
+  padding: 0px 12px;
+}
+
+.modal-content .input-group .btn{
+  color: #000;
+  background-color: #bcbcbc;
+    border-radius: 0px 20px 20px 0px;
+    text-transform: uppercase;
+  padding-right: 40px;
+        border: solid 1px #fff;
+        border-left-color: #777 ;
+}
+
+
+@media (min-width: 576px){
+.modal-dialog-centered {
+    min-height: calc(100% - (1.75rem * 2));
+}}
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+}}
