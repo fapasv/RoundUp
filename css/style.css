@@ -551,14 +551,3 @@ a.article, a.article:hover {
         border: solid 1px #fff;
         border-left-color: #777 ;
 }
-
-
-@media (min-width: 576px){
-.modal-dialog-centered {
-    min-height: calc(100% - (1.75rem * 2));
-}}
-@media (min-width: 576px){
-.modal-dialog {
-    max-width: 500px;
-    margin: 1.75rem auto;
-}}
