@@ -219,6 +219,8 @@ LOGIN STYLE
   color: #fff;
 }
 
+
+
 .input-group .form-control{
   border-radius: 0px 20px 20px 0px !important;
 }
@@ -493,9 +495,15 @@ a.article, a.article:hover {
   border-radius: 20px;
 }
 
-.modal-content .form-label-group{
-  padding: 0px;
+.modal-content .form-group.required .control-label:after {
+  content:"*";
+  color:red;
 }
+
+.modal-content :required  {
+	 background: url("../images/required.png") no-repeat;
+	 background-position:right center;
+	}
 
 .modal-content .form-control{
   background-color: #bcbcbc;
@@ -503,6 +511,9 @@ a.article, a.article:hover {
   margin: 5px;
 }
 
+.modal-content .added-section{
+  margin-top:10px; border-top:solid 1px #777; padding-top:15px;
+}
 
 
 .modal-content ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */

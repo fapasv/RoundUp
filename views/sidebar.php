@@ -21,7 +21,7 @@
               usuario</a>
             <ul class="collapse list-unstyled" id="usuarioSubmenu">
                 <li><a href="index.php?view=useradmin">Gestión de Usuario</a></li>
-                <li><a href="#">Ops 2</a></li>
+                <li><a href="index.php?view=provideradmin">Gestión de Proveedores</a></li>
                 <li><a href="#">Ops 3</a></li>
             </ul>
         </li>

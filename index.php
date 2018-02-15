@@ -38,6 +38,9 @@
         case 'useradmin':
           include 'views/useradmin.php';
           break;
+          case 'provideradmin':
+            include 'views/provideradmin.php';
+            break;
 
         default:
           include 'views/home.php';
