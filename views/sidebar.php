@@ -22,7 +22,6 @@
             <ul class="collapse list-unstyled" id="usuarioSubmenu">
                 <li><a href="index.php?view=useradmin">Gestión de Usuario</a></li>
                 <li><a href="index.php?view=provideradmin">Gestión de Proveedores</a></li>
-                <li><a href="#">Ops 3</a></li>
             </ul>
         </li>
         <li>
@@ -31,9 +30,9 @@
               <img src="images/icono_menu-almacen.png" />
               almacen</a>
             <ul class="collapse list-unstyled" id="almacenSubmenu">
-                <li><a href="#">Ops 1</a></li>
-                <li><a href="#">Ops 2</a></li>
-                <li><a href="#">Ops 3</a></li>
+                <li><a href="index.php?view=inputcat">categoría de insumo</a></li>
+                <li><a href="index.php?view=inputadmin">gestion de insumo</a></li>
+                <li><a href="index.php?view=inputadj">ajuste de insumo</a></li>
             </ul>
         </li>
         <li>

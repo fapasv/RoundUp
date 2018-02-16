@@ -36,12 +36,14 @@
 
       switch ($_GET['view']) {
         case 'useradmin':
-          include 'views/useradmin.php';
+          include 'views/user/useradmin.php';
           break;
           case 'provideradmin':
-            include 'views/provideradmin.php';
+            include 'views/provider/provideradmin.php';
             break;
-
+            case 'inputcat':
+              include 'views/supply/categoriessupply.php';
+              break;
         default:
           include 'views/home.php';
           break;
