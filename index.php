@@ -30,29 +30,32 @@
       <?php include 'views/navbar.php';?>
       <!--Contenido-->
 
-
-  <?php
-  if(isset($_GET["view"])){
-
-      switch ($_GET['view']) {
-        case 'useradmin':
+      <?php
+      if(isset($_GET["view"])){
+        switch ($_GET['view']) {
+          case 'useradmin':
           include 'views/user/useradmin.php';
           break;
           case 'provideradmin':
-            include 'views/provider/provideradmin.php';
-            break;
-            case 'inputcat':
-              include 'views/supply/categoriessupply.php';
-              break;
-        default:
+          include 'views/provider/provideradmin.php';
+          break;
+          case 'categoriessupply':
+          include 'views/categorysupply/categoriessupply.php';
+          break;
+          case 'supplyadmin':
+          include 'views/supply/supplyadmin.php';
+          break;
+          case 'adjustsupply':
+          include 'views/adjustsupply/adjustsupply.php';
+          break;
+          default:
           include 'views/home.php';
           break;
+        }
+      }else{
+        include 'views/home.php';
       }
-
-  }else{
-    include 'views/home.php';
-  }
-  ?>
+      ?>
 
 
       <!-- Contenido -->

@@ -7,6 +7,8 @@
   top:5px;
 }
 
+
+
 .switch input {display:none;}
 
 .slider {
@@ -54,4 +56,21 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.switch-md {
+    width: 45px;
+    height: 25px;
+    top: 5px;
+}
+
+.switch-md .slider:before {
+    height: 19px;
+    width: 19px;
+}
+
+input:checked + .slider-md:before {
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
 }

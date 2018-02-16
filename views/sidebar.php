@@ -30,9 +30,9 @@
               <img src="images/icono_menu-almacen.png" />
               almacen</a>
             <ul class="collapse list-unstyled" id="almacenSubmenu">
-                <li><a href="index.php?view=inputcat">categoría de insumo</a></li>
-                <li><a href="index.php?view=inputadmin">gestion de insumo</a></li>
-                <li><a href="index.php?view=inputadj">ajuste de insumo</a></li>
+                <li><a href="index.php?view=categoriessupply">categoría de insumo</a></li>
+                <li><a href="index.php?view=supplyadmin">gestion de insumo</a></li>
+                <li><a href="index.php?view=adjustsupply">ajuste de insumo</a></li>
             </ul>
         </li>
         <li>
