@@ -24,9 +24,9 @@
     </div>
     <div class="row added-section">
       <div class="col-sm-1">
-        <button type="submit" class="btn btn-danger btn-noround btn-sm" style="margin:5px"><span class="fa fa-plus"></span></button>
+        <button type="submit" class="btn btn-danger btn-noround btn-sm" ><span class="fa fa-plus"></span></button>
       </div>
-      <div class="col-sm-10">
+      <div class="col-sm-11">
         <input type="text" class="form-control input-sm" id="inputContact" placeholder="Nombre de contacto" required autofocus />
       </div>
     </div>
@@ -34,7 +34,7 @@
       <div class="col-sm-6">
         <input type="email" class="form-control input-sm" id="inputEmail" placeholder="Correo electrónico">
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-5">
         <input type="text" class="form-control input-sm" id="inputPhone" placeholder="Teléfono">
       </div>
       <div class="col-sm-1">
@@ -45,9 +45,9 @@
     </div>
     <div class="row added-section">
       <div class="col-sm-1">
-        <button type="submit" class="btn btn-danger btn-noround btn-sm" style="margin:5px"><span class="fa fa-plus"></span></button>
+        <button type="submit" class="btn btn-danger btn-noround btn-sm" ><span class="fa fa-plus"></span></button>
       </div>
-      <div class="col-sm-10">
+      <div class="col-sm-11">
         <input type="text" class="form-control input-sm" id="inputContact" placeholder="Nombre de contacto" required autofocus />
       </div>
     </div>
@@ -55,7 +55,7 @@
       <div class="col-sm-6">
         <input type="email" class="form-control input-sm" id="inputEmail" placeholder="Correo electrónico">
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-5">
         <input type="text" class="form-control input-sm" id="inputPhone" placeholder="Teléfono">
       </div>
       <div class="col-sm-1">
@@ -66,9 +66,9 @@
     </div>
     <div class="row added-section">
       <div class="col-sm-1">
-        <button type="submit" class="btn btn-danger btn-noround btn-sm" style="margin:5px"><span class="fa fa-plus"></span></button>
+        <button type="submit" class="btn btn-danger btn-noround btn-sm" ><span class="fa fa-plus"></span></button>
       </div>
-      <div class="col-sm-10">
+      <div class="col-sm-11">
         <input type="text" class="form-control input-sm" id="inputContact" placeholder="Nombre de contacto" required autofocus />
       </div>
     </div>
@@ -76,7 +76,7 @@
       <div class="col-sm-6">
         <input type="email" class="form-control input-sm" id="inputEmail" placeholder="Correo electrónico">
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-5">
         <input type="text" class="form-control input-sm" id="inputPhone" placeholder="Teléfono">
       </div>
       <div class="col-sm-1">

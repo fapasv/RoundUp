@@ -40,9 +40,8 @@
             <img src="images/icono_menu-compras.png" />
             compras</a>
           <ul class="collapse list-unstyled" id="comprasSubmenu">
-              <li><a href="#">Ops 1</a></li>
-              <li><a href="#">Ops 2</a></li>
-              <li><a href="#">Ops 3</a></li>
+              <li><a href="index.php?view=purchaseadmin">Gestión de compra</a></li>
+              <li><a href="index.php?view=purchasesummary">Resumen de Compra</a></li>
           </ul>
         </li>
         <li>
@@ -50,8 +49,8 @@
             <img src="images/icono_menu-producto.png" />
             producto</a>
           <ul class="collapse list-unstyled" id="productoSubmenu">
-              <li><a href="#">Ops 1</a></li>
-              <li><a href="#">Ops 2</a></li>
+              <li><a href="index.php?view=productcategory">categoría de productos</a></li>
+              <li><a href="index.php?view=productadmin">gestión de productos</a></li>
               <li><a href="#">Ops 3</a></li>
           </ul>
         </li>

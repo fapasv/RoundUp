@@ -35,7 +35,6 @@
           </tr>
         </thead>
         <tbody>
-
           <tr>
             <td>ARROZ</td>
             <td>HURTO</td>
@@ -68,7 +67,6 @@
               </a>
             </td>
           </tr>
-
         </tbody>
       </table>
     </div>

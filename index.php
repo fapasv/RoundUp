@@ -15,19 +15,22 @@
   <link rel="stylesheet" href="css/datatables.css">
   <!-- Switcher CSS -->
   <link rel="stylesheet" href="css/switcher.css">
+  <!-- Datetime Picker CSS -->
+  <link rel="stylesheet" href="css/bootstrap-datetimepicker.css">
   <!-- CSS Personalizado -->
   <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
   <div class="wrapper">
     <!-- Sidebar -->
-    <?php include 'views/sidebar.php';?>
+    <?php require_once 'views/sidebar.php';?>
     <!-- Contenido de pagina -->
     <div id="content">
 
       <!-- Navegación y Encabezado -->
-      <?php include 'views/navbar.php';?>
+      <?php require_once 'views/navbar.php';?>
       <!--Contenido-->
 
       <?php
@@ -36,18 +39,39 @@
           case 'useradmin':
           include 'views/user/useradmin.php';
           break;
+
           case 'provideradmin':
           include 'views/provider/provideradmin.php';
           break;
+
           case 'categoriessupply':
           include 'views/categorysupply/categoriessupply.php';
           break;
+
           case 'supplyadmin':
           include 'views/supply/supplyadmin.php';
           break;
+
           case 'adjustsupply':
           include 'views/adjustsupply/adjustsupply.php';
           break;
+
+          case 'purchaseadmin':
+          include 'views/purchase/purchaseadmin.php';
+          break;
+
+          case 'purchasesummary':
+          include 'views/purchasesummary/purchasesummary.php';
+          break;
+
+          case 'productcategory':
+          include 'views/productcategory/productcategory.php';
+          break;
+
+          case 'productadmin':
+          include 'views/product/productadmin.php';
+          break;
+
           default:
           include 'views/home.php';
           break;
@@ -60,5 +84,5 @@
 
       <!-- Contenido -->
       <!-- Pie de página y llamadas js -->
-      <?php include 'views/footer.php';?>
+      <?php require_once 'views/footer.php';?>
     </body></html>

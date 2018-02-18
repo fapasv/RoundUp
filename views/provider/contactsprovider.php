@@ -19,7 +19,7 @@
       <div class="form-group col-md-2">
         <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono">
       </div>
-      <div class="col-md-2 align-middle" style="padding-top:8px">
+      <div class="col-md-2 text-center" style="padding-top:8px">
         <label class="switch">
           <input type="checkbox">
           <span class="slider round"></span>
@@ -45,7 +45,7 @@
       <div class="form-group col-md-2">
         <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono">
       </div>
-      <div class="col-md-2 align-middle" style="padding-top:8px">
+      <div class="col-md-2 text-center" style="padding-top:8px">
         <label class="switch">
           <input type="checkbox">
           <span class="slider round"></span>
@@ -71,7 +71,7 @@
       <div class="form-group col-md-2">
         <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono">
       </div>
-      <div class="col-md-2 align-middle" style="padding-top:8px">
+      <div class="col-md-2 text-center" style="padding-top:8px">
         <label class="switch">
           <input type="checkbox">
           <span class="slider round"></span>
