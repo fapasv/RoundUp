@@ -20,7 +20,8 @@
             </div>
             <div class="col-xs-6 col-md-4 text-right cont-expand" style="padding:5px">
               <!-- Button trigger modal -->
-              <button type="button" class="btn btn-danger btn-block btn-noround"><span class="fa fa-plus"></span> Crear producto</button>
+              <button type="button" class="btn btn-danger btn-block btn-noround"
+              data-toggle="modal" data-target="#addproduct"><span class="fa fa-plus"></span> Crear producto</button>
             </div>
             <div class="col-xs-6 col-md-4 text-right cont-expand" style="padding:5px">
               <!-- Button trigger modal -->
@@ -67,6 +68,25 @@
   <div class="modal-dialog modal-dialog-centered" role="document" >
     <div class="modal-content">
       <?php include 'addproductpromo.php'; ?>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Agregar Producto -->
+<div class="modal fade" id="addproduct" tabindex="-1" role="dialog" aria-labelledby="addproduct" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document" >
+    <div class="modal-content">
+      <?php include 'addproduct.php'; ?>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Modificar Producto -->
+<div class="modal fade" id="editproductmodal" tabindex="-1" role="dialog" aria-labelledby="editproductmodal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document" >
+    <div class="modal-content">
+      <?php include 'editproduct.php'; ?>
     </div>
   </div>
 </div>

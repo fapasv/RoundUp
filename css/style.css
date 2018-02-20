@@ -45,6 +45,47 @@ a, a:hover, a:focus {
   transition: all 0.3s;
 }
 
+/*----------------------------------------------------------------------------
+5 Columns Style
+----------------------------------------------------------------------------*/
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+/*----------------------------------------------------------------------------
+Containers
+----------------------------------------------------------------------------*/
 .container{
   margin-top: 30px;
   margin-bottom: 20px;
@@ -154,19 +195,33 @@ a, a:hover, a:focus {
   font-family: Roboto-Bold;
   font-size: 12px;
 }
+
 .btn-danger{
   background: #ae0000;
 }
-
 .btn-danger:hover{
   background: #ba2626;
   border-color: #ae0000;
 }
-
 .btn-danger:active,.btn-danger:active:focus, .btn-danger:active:hover{
   background: #ae0000;
   border-color: #720000;
 }
+
+.btn-primary{
+  background: #0071bc;
+}
+
+
+.btn-success{
+  background: #71c600;
+}
+
+
+.btn-warning{
+  background: #ffd600;
+}
+
 
 .btn-default{
   background: transparent;
@@ -302,6 +357,115 @@ small, .small{
   }
 }
 
+
+.no-border td{border-top: none !important;}
+
+.added-section>td{
+
+   border-top:solid 1px #777 !important;
+}
+
+.place-tables{
+  padding-top: 30px !important;
+}
+.place-tables .row, .row-nomargin{
+      margin-right: 0px;
+      margin-left: 0px;
+
+}
+.place-tables a.btn-lg{
+  padding: 10px 23px;
+  border-radius: 10px;
+  border-width: 1px;
+  margin: 4px;
+vertical-align: middle !important;
+}
+
+.rightbar{
+  font-family: Roboto-Bold;
+  font-size: 10px;
+  text-transform: uppercase;
+  background: #141414;
+  width:120px;
+  vertical-align: middle;
+}
+
+@media (max-width: 767px){
+.rightbar {
+  vertical-align: top;
+  }
+}
+
+
+.rightbar a.btn-xs{
+      padding: 2px 10px;
+      margin: 2px 0;
+}
+
+.btn-envio {padding: 9px 2px 8px 2px !important;}
+
+.rightbar a.btn-default{ border-width: 1px;}
+
+.lnk-lg{
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+}
+.lnk-lg:hover{
+  background: #f2f2f2;
+}
+.lnk-lg>img{ display: block; margin:auto;}
+
+/*----------------------------------------------------------------------------
+ Panel Syle
+----------------------------------------------------------------------------*/
+.panel-default>.panel-heading{
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.panel-default>.panel-body{
+  color:#000;
+}
+
+.panel-row{
+
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.panel-row, .panel-default>.panel-body .row{
+  padding: 4px 0px;
+}
+
+.panel-default>.panel-body .input-group-addon {
+  background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+.panel-default>.panel-body .input-group-addon:first-child {
+    border-right: 0;
+}
+
+.panel-default>.panel-body .form-control {
+  background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+  }
+
+.inner-panel{
+  background: #f2f2f2;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.inner-panel>.panel-body{
+  padding: 5px;
+}
+
+/*----------------------------------------------------------------------------
+ Thumbnail Syle
+----------------------------------------------------------------------------*/
 .thumbnail, .thumbnail .panel-image{
   background: #fff;
   border-radius: 20px;
@@ -355,9 +519,12 @@ small, .small{
 
 .thumbnail .link-default:hover{
   color: #fff;
-
 }
 
+
+.thumbnail-sm{ font-size: 12px; padding: 10px; border-radius: 10px;}
+.thumbnail-sm .col-nopadding{ padding-left: 10px; padding-right: 10px;}
+.thumbnail-sm .caption{ color:#fff;}
 
 /* ------------------
 SIDEBAR STYLE
@@ -548,6 +715,9 @@ background-color: #ffd600
 /*---------------------------------------------------------------------------
   MODAL STYLE
 ----------------------------------------------------------------------------*/
+@media (min-width: 768px){
+  .modal-dialog { margin: 90px auto;  }
+}
 
 .modal-header .close {
   position: absolute;
@@ -621,7 +791,11 @@ background-color: #ffd600
   border: 1px solid #fff;
   border-radius: 20px 0px 0px 20px;
   border-right: 0px;
-  padding: 0px 12px;
+  padding: 0px 6px;
+}
+
+.modal-content .input-group .input-group-addon .fa{
+  padding:0px 4px 0px 5px;
 }
 
 .modal-content .input-group .btn{
@@ -634,7 +808,7 @@ background-color: #ffd600
         border-left-color: #777 ;
 }
 
-.modal-content .thumbnail{background: #fff; padding: 4px;}
+.modal-content .thumbnail{background: #fff; padding: 4px; margin:0px; }
 .modal-content .thumbnail>img {
     max-width: 70%;
 }

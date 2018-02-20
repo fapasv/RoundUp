@@ -72,9 +72,30 @@
           include 'views/product/productadmin.php';
           break;
 
+          case 'salesorder':
+          include 'views/sales/salesorder.php';
+          break;
+
+          case 'salesordersummary':
+          include 'views/sales/salesordersummary.php';
+          break;
+
+          case 'salesseparatedorder':
+          include 'views/sales/salesseparatedorder.php';
+          break;
+
+          case 'salesbox':
+          include 'views/sales/salesbox.php';
+          break;
+
+          case 'salesboxcard':
+          include 'views/sales/salesboxcard.php';
+          break;
+
           default:
           include 'views/home.php';
           break;
+
         }
       }else{
         include 'views/home.php';

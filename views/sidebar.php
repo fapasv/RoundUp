@@ -51,7 +51,6 @@
           <ul class="collapse list-unstyled" id="productoSubmenu">
               <li><a href="index.php?view=productcategory">categoría de productos</a></li>
               <li><a href="index.php?view=productadmin">gestión de productos</a></li>
-              <li><a href="#">Ops 3</a></li>
           </ul>
         </li>
         <li>
@@ -59,9 +58,8 @@
             <img src="images/icono_menu-ventas.png" />
             ventas</a>
           <ul class="collapse list-unstyled" id="ventasSubmenu">
-              <li><a href="#">Ops 1</a></li>
-              <li><a href="#">Ops 2</a></li>
-              <li><a href="#">Ops 3</a></li>
+              <li><a href="index.php?view=salesorder">pedido</a></li>
+              <li><a href="index.php?view=salesbox">caja</a></li>
           </ul>
         </li>
     </ul>

@@ -29,7 +29,7 @@
               <span class="input-group-addon">
                 <span class="fa fa-calendar"></span>
               </span>
-              <input type='text' class="form-control" />
+              <input type='text' class="form-control" placeholder="Fecha desde"/>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@
               <span class="input-group-addon">
                 <span class="fa fa-calendar"></span>
               </span>
-              <input type='text' class="form-control" />
+              <input type='text' class="form-control" placeholder="Fecha hasta"/>
             </div>
           </div>
         </div>
@@ -76,9 +76,9 @@
           <div class="form-group">
             <div class='input-group date timeField' id='datetimepicker3'>
               <span class="input-group-addon">
-                <span class="glyphicon glyphicon-time"></span>
+                <span class="fa fa-clock"></span>
               </span>
-              <input type='text' class="form-control" />
+              <input type='text' class="form-control" placeholder="Hora desde" />
             </div>
           </div>
         </div>
@@ -86,9 +86,9 @@
           <div class="form-group">
             <div class='input-group date timeField' id='datetimepicker4'>
               <span class="input-group-addon">
-                <span class="glyphicon glyphicon-time"></span>
+                <span class="fa fa-clock"></span>
               </span>
-              <input type='text' class="form-control" />
+              <input type='text' class="form-control" placeholder="Hora hasta" />
             </div>
           </div>
         </div>
@@ -96,15 +96,6 @@
     </div>
   </div>
   <div class="row" >
-    <div class="col-sm-6">
-      <div class="form-group">
-        # de platos para aplicar promoción:
-        <div class="row">
-          <div class="col-sm-12">
-        <input type='text' class="form-control"  id="NPlatos"/>
-        </div></div>
-      </div>
-      </div>
       <div class="col-sm-6">
         Descuento o gratis:
         <div class="row">
@@ -117,6 +108,16 @@
           <div class="col-xs-4 col-sm-4"><input type='text' class="form-control" placeholder="%" /></div>
         </div>
       </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          # de platos para aplicar promoción:
+          <div class="row">
+            <div class="col-sm-12">
+          <input type='text' class="form-control"  id="NPlatos" placeholder="# de platos"/>
+          </div></div>
+        </div>
+        </div>
+
     </div>
 </div>
 <div class="modal-footer">

@@ -1,7 +1,7 @@
 <div class="thumbnail">
   <div class="panel panel-default">
     <div class="panel-body">
-      <span>categoría: <b>sopa</b></span>
+      <span style="color:#fff">categoría: <b>sopa</b></span>
     </div>
   </div>
   <div class="row sub-panel">
@@ -22,7 +22,7 @@
           <input type="checkbox">
           <span class="slider round"></span>
         </label>
-        <a class="like" href="javascript:void(0)" title="Editar">
+        <a class="like" href="#editproduct" title="Editar" data-toggle="modal" data-target="#editproductmodal">
           <img src="images/icono_editar_sm_alt.png" />
         </a>
         <a class="like" href="javascript:void(0)" title="Borrar">
