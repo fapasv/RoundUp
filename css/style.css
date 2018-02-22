@@ -27,12 +27,13 @@
 }
 
 body {
-  font-family: Roboto-Light, sans-serif;
+  font-family: Roboto-Regular, sans-serif;
   color: #fff !important;
+  font-size: 12px;
 }
 
 p {
-  font-family: Roboto-Light, sans-serif;
+  font-family: Roboto-Regular, sans-serif;
   font-size: 1.1em;
   font-weight: 300;
   line-height: 1.7em;
@@ -109,16 +110,19 @@ Containers
 .navbar-inverse{
   background: transparent;
 }
+
 .navbar-default{
   background: url("../images/slice_1_1.png") repeat;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   padding:5px;
-  min-height: 80px;
 }
+
 .navbar-default .navbar-nav > li > a{
   border-radius: 6px;
   color: #fff;
+  font-family: Roboto-Bold;
 }
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #fff;
@@ -134,7 +138,7 @@ Containers
   background: #000;
   padding: 0px;
   margin: 3px 0px;
-  border-radius: 10px
+  border-radius: 10px !important;
 }
 
 .navbar-btn:hover{
@@ -153,6 +157,16 @@ Containers
   font-size: 20px;
 }
 
+@media (min-width: 768px){
+.navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logo{
+  padding: 3px 20px !important;
+}
+
 .breadcrumb{
   background-color: #535353;
   text-transform: uppercase;
@@ -168,14 +182,7 @@ Containers
   font-family: Roboto-Light;
   color: #fff;
 }
-.signout{
-  background: url("../images/icono_salir.png") no-repeat right center;
-  padding: 25px 50px 25px 15px !important  ;
-}
 
-.logo{
-  padding: 3px 20px !important;
-}
 
 .line {
   width: 100%;
@@ -269,6 +276,13 @@ LOGIN STYLE
   padding-top: 0px !important;
 }
 
+.login-user{
+  border-width: 0px;
+  position: relative;
+  top: -25px;
+  margin-bottom: -25px;
+}
+
 
 
 .form-control{
@@ -298,7 +312,7 @@ LOGIN STYLE
 }
 
 form{
-  background: url("../images/bg.png") ;
+  background: url("../images/bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -318,7 +332,7 @@ small, .small{
   position: absolute;
   top: 0;
   right: 0;
-  background:#171717 url("../images/bg.jpg") ;
+  background:#444 url("../images/bg.png") ;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -530,10 +544,10 @@ vertical-align: middle !important;
 SIDEBAR STYLE
 ------------------- */
 #sidebar {
-  width: 300px;
+  width: 240px;
   position: fixed;
   top: 0;
-  left: -300px;
+  left: -240px;
   height: 100vh;
   z-index: 999;
   background: #ae0000;
@@ -561,10 +575,7 @@ SIDEBAR STYLE
 #dismiss:hover {
   background: #ba2626;
 }
-#dismiss img{
-  width: 40px;
-  height: 40px;
-}
+
 
 .overlay {
   position: fixed;
@@ -595,14 +606,18 @@ SIDEBAR STYLE
 }
 
 #sidebar ul li a {
-  padding: 15px;
-  font-size: 18px;
+  padding: 12px;
+  font-size: 14px;
   display: block;
   text-transform: uppercase;
 }
 #sidebar ul li a:hover {
   color: #fff;
   background: #ba2626;
+}
+
+#sidebar ul li a>img{
+  padding-right: 10px;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
@@ -622,7 +637,7 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
   position: absolute;
   right: 20px;
   font-family: 'FontAwesome';
-  font-size: 26px;
+  font-size: 22px;
 }
 a[aria-expanded="true"]::before {
   content: '\f106';
@@ -630,7 +645,7 @@ a[aria-expanded="true"]::before {
 
 
 #sidebar ul ul a {
-  font-size: 16px !important;
+  font-size: 12px !important;
   padding-left: 30px !important;
   background: #880000;
 }

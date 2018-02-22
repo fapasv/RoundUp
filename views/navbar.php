@@ -20,13 +20,14 @@
         <div class="collapse navbar-collapse">
           <?php if(strpos($currentpage,'/login.php') === false) {?>
           <ul class="nav navbar-nav navbar-left">
-            <li >
+            <li>
               <a href="#">
               <b>BIENVENIDO</b></br> Juan Pérez</a>
             </li>
             <li class="nav-item">
-              <a class="signout" href="login.php">
-                   Salir
+              <a href="login.php">
+                <b>SALIR</b>
+                <img src="/images/icono_salir.png">
               </a>
             </li>
           </ul>

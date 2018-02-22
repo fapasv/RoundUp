@@ -34,7 +34,7 @@
 
             <div class="row roundedform">
               <div class="text-center mb-4">
-                <img alt=" " src="images/slice_1_3.png" style="border-width: 0px;">
+                <img alt=" " class="login-user"src="images/icono_user-login.png"/>
               </div>
 
               <div class="form-label-group" style="padding-top:20px">
