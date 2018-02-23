@@ -1,11 +1,11 @@
 <?php
   $currentpage = $_SERVER['REQUEST_URI'];
 ?>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
 
     <div class="container-fluid">
       <!-- LOGO -->
-      <a class="logo navbar-brand navbar-right" href="index.php">
+      <a class="navbar-brand navbar-right" href="index.php">
         <img src="images/logo.png" alt="home" class="dark-logo">
       </a>
       <?php if(strpos($currentpage,'/login.php') === false) {?>

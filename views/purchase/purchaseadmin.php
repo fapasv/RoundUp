@@ -1,4 +1,4 @@
-<div class="container-full">
+<div class="container container-full">
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="col-xs-6 col-md-4" style="padding:5px">

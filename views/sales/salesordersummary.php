@@ -1,4 +1,4 @@
-<div class="container-full" >
+<div class="container container-full" >
 
   <div  class="container-fluid">
     <div class="row">
@@ -13,7 +13,11 @@
               <input type="text" class="form-control" id="txtbuscar" placeholder="Buscar" aria-describedby="basic-search">
             </div>
           </div>
-          <div class="col-xs-6 col-md-6">
+          <div class="col-xs-8 col-md-8 text-right">
+
+            <a class="btn btn-default btn-sm" style="padding:5px" href="index.php?view=salesorder">
+              <img src="images/icono_cerrar_solo.png" alt="cerrar" title="cerrar" />
+            </a>
           </div>
 
         </div>

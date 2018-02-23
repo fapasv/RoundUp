@@ -12,7 +12,7 @@
 
     <ul class="list-unstyled components">
         <li>
-          <a href="#" >
+          <a href="index.php" >
             <img src="images/icono_menu-reporte.png" />
             Reporte
           </a>
