@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container container-xs">
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
-      <div class="col-xs-6 col-md-4" style="padding:5px">
+      <div class="col-xs-4" style="padding:5px">
         <div class="input-group">
           <span class="input-group-addon" id="basic-search"><span class="fa fa-search"></span></span>
           <input type="text" class="form-control" id="txtbuscar" placeholder="Buscar" aria-describedby="basic-search">
@@ -13,9 +13,9 @@
           <li class="active">Categoría de producto</li>
         </ul>
       </div>
-        <div class="col-xs-6 col-md-4 text-right cont-expand" style="padding:5px">
+        <div class="col-xs-4 col-xs-offset-4 col-md-offset-0" style="padding:5px">
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-danger btn-noround" data-toggle="modal" data-target="#addproductcategory"><span class="fa fa-plus"></span> Agregar</button>
+          <button type="button" class="btn btn-danger btn-noround btn-block" data-toggle="modal" data-target="#addproductcategory"><span class="fa fa-plus"></span> Agregar</button>
         </div>
       </div>
     </nav>

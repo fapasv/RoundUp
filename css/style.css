@@ -97,6 +97,10 @@ Containers
   width: 100%;
 }
 
+.container-xs {
+    width: 750px;
+}
+
 .navbar {
   border: none;
   border-radius: 0;
@@ -525,6 +529,11 @@ small, .small{
 .thumbnail .sub-panel{
   font-family: Roboto-Bold;
   margin-bottom: 5px;
+}
+
+.thumbnail .sub-panel .col{
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .thumbnail .caption img{

@@ -1,20 +1,20 @@
 <div class="container container-full">
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
-      <div class="col-md-4" style="padding:5px">
+      <div class="col-xs-4 col-md-3" style="padding:5px">
         <div class="input-group">
           <span class="input-group-addon" id="basic-search"><span class="fa fa-search"></span></span>
           <input type="text" class="form-control" id="txtbuscar" placeholder="Buscar" aria-describedby="basic-search">
         </div>
       </div>
-      <div class="col-md-4 hidden-sm hidden-xs" style="padding:5px">
+      <div class="col-md-6 hidden-sm hidden-xs" style="padding:5px">
         <ul class="breadcrumb">
           <li><a href="#">Usuario</a></li>
           <li class="active">Gestión de usuarios</li>
         </ul></div>
-        <div class="col-md-4 text-right cont-expand" style="padding:5px">
+        <div class="col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-1" style="padding:5px">
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-danger btn-noround" data-toggle="modal" data-target="#addusrmodal"><span class="fa fa-plus"></span> Agregar</button>
+          <button type="button" class="btn btn-danger btn-noround btn-block" data-toggle="modal" data-target="#addusrmodal"><span class="fa fa-plus"></span> Agregar</button>
         </div>
       </div>
     </nav>

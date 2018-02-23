@@ -12,18 +12,18 @@
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
           <div class="row text-center">
-            <div class="col-xs-12 col-md-4" style="padding:5px">
+            <div class="col-xs-4" style="padding:5px">
               <div class="input-group">
                 <span class="input-group-addon" id="basic-search"><span class="fa fa-search"></span></span>
                 <input type="text" class="form-control" id="txtbuscar" placeholder="Buscar" aria-describedby="basic-search">
               </div>
             </div>
-            <div class="col-xs-6 col-md-4 text-right cont-expand" style="padding:5px">
+            <div class="col-xs-4 text-right cont-expand" style="padding:5px">
               <!-- Button trigger modal -->
               <button type="button" class="btn btn-danger btn-block btn-noround"
               data-toggle="modal" data-target="#addproduct"><span class="fa fa-plus"></span> Crear producto</button>
             </div>
-            <div class="col-xs-6 col-md-4 text-right cont-expand" style="padding:5px">
+            <div class="col-xs-4 text-right cont-expand" style="padding:5px">
               <!-- Button trigger modal -->
               <button type="button" class="btn btn-danger btn-block btn-noround" data-toggle="modal" data-target="#addproductpromo"><span class="fa fa-plus"></span> Crear promoción</button>
             </div>
@@ -34,27 +34,29 @@
   </nav>
   <div class="row" style="margin-top:30px">
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-4 col-md-3">
         <?php require "thumbproduct1.php"; ?>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-4 col-md-3">
         <?php require "thumbproduct1.php"; ?>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-4 col-md-3">
         <?php require "thumbproduct1.php"; ?>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-4 col-md-3">
+        <?php require "thumbproduct2.php"; ?>
+    </div>
+    
+<div class="clearfix visible-lg-block"></div>
+
+    <div class="col-xs-12 col-sm-4 col-md-3">
         <?php require "thumbproduct2.php"; ?>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <?php require "thumbproduct2.php"; ?>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-4 col-md-3">
         <?php require "thumbproduct2.php"; ?>
     </div>
 

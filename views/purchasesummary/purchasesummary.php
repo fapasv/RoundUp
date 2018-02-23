@@ -1,23 +1,21 @@
 <div class="container container-full">
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
-      <div class="col-xs-6 col-md-4" style="padding:5px">
+      <div class="col-xs-4 col-md-3" style="padding:5px">
         <div class="input-group">
           <span class="input-group-addon" id="basic-search"><span class="fa fa-search"></span></span>
           <input type="text" class="form-control" id="txtbuscar" placeholder="Buscar" aria-describedby="basic-search">
         </div>
       </div>
-      <div class="col-xs-6 col-md-4" style="padding:5px">
+      <div class="col-xs-6" style="padding:5px">
         <ul class="breadcrumb">
           <li><a href="#">compra</a></li>
           <li class="active">Resumen de compra</li>
         </ul></div>
-        <div class="col-xs-1 col-md-4 ">
-
-        </div>
+        <div class="col-xs-4 col-md-3"></div>
       </div>
-    </div>
   </nav>
+  
   <div class="table table-responsive" >
     <table id="usrtable" class="display" cellspacing="0" width="100%">
       <thead>
