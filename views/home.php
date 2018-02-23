@@ -19,7 +19,7 @@
   </div>
 </div>
 
-<div class="row" style="margin-top:40px">
+<div class="row" style="margin-top:10px">
   <div class="col col-sm-6 col-xs-12 cont-right">
     <div>
     <img src="/images/glines.png"/><br />
