@@ -5,20 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Round Up</title>
+
   <!-- Bootstrap CSS CDN -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <!-- Font Awesome CSS -->
   <link rel="stylesheet" href="css/fontawesome.min.css">
   <!-- Scrollbar Personalizado CSS -->
   <link rel="stylesheet" href="css/jquery.css">
-  <!-- DataTables CSS -->
-  <link rel="stylesheet" href="css/datatables.css">
+
   <!-- Switcher CSS -->
   <link rel="stylesheet" href="css/switcher.css">
   <!-- Datetime Picker CSS -->
   <link rel="stylesheet" href="css/bootstrap-datetimepicker.css">
   <!-- CSS Personalizado -->
   <link rel="stylesheet" href="css/style.css">
+
+
+  <!-- jQuery CDN -->
+  <script src="js/jquery-1.js"></script>
+  <!-- Moments Js -->
+  <script type="text/javascript" src="js/moment.js"></script>
+  <!-- Bootstrap Js CDN -->
+  <script src="js/bootstrap.js"></script>
+  <!-- jQuery Custom Scroller CDN -->
+  <script src="js/jquery.js"></script>
+  <!-- DateTime Picker JS -->
+  <script src="js/bootstrap-datetimepicker.js"></script>
+
+
+  <script type="text/javascript">
+  $(document).ready(function () {
+    $("#sidebar").mCustomScrollbar({
+      theme: "minimal"
+    });
+
+    $('#dismiss, .overlay').on('click', function () {
+      $('#sidebar').removeClass('active');
+      $('.overlay').fadeOut();
+    });
+
+    $('#sidebarCollapse').on('click', function () {
+      $('#sidebar').addClass('active');
+      $('.overlay').fadeIn();
+      $('.collapse.in').toggleClass('in');
+      $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+    });
+
+    $('.datetimeField').datetimepicker({format: 'DD/MM/YYYY'});
+    $('.timeField').datetimepicker({format: 'LT'});
+  });
+  </script>
+
 
 </head>
 <body>

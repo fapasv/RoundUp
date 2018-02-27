@@ -1,3 +1,28 @@
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="css/datatables.css">
+<!-- DataTable js -->
+<script src="js/datatables.js"></script>
+<script type="text/javascript">
+$(function(){
+var oTable = $('#usrtable').DataTable(
+  {
+    "order": [],
+    "columnDefs": [ {
+      "targets"  : 'no-sort',
+      "orderable": false,
+    }],
+    "bLengthChange": false,
+    "info":     false
+  }
+);
+
+$('#txtbuscar').keyup( function () {
+  oTable.search(this.value).draw();
+  //oTable.fnFilter( this.value );
+} );
+})
+</script>
+
 <div class="container container-full">
 
   <nav class="navbar navbar-inverse">
@@ -37,7 +62,7 @@
         </div>
       </div>
     </nav>
-    
+
     <div class="table-responsive" >
       <table id="usrtable" class="display" cellspacing="0" width="100%">
         <thead>
