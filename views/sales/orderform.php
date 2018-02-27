@@ -2,10 +2,10 @@
   <!-- Default panel contents -->
   <div class="panel-heading">
     <div class="row row-nomargin">
-      <div class="col col-sm-7 col-md-7">
+      <div class="col col-sm-6 col-md-6">
         <h5>Resumen de pedido</h5>
       </div>
-      <div class="col col-sm-5 col-md-5">
+      <div class="col col-sm-6 col-md-6 text-right">
         <a href="index.php?view=salesseparatedorder" class="btn btn-danger btn-noround" ><span class="fa fa-plus"></span> separar cta.</a>
       </div>
     </div>
