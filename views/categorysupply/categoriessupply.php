@@ -44,7 +44,7 @@ $('#txtbuscar').keyup( function () {
       </div>
     </nav>
     <div class="table-responsive" >
-      <table id="usrtable" class="display" cellspacing="0" width="100%">
+      <table id="usrtable" class="display table dataTable" cellspacing="0" width="100%">
         <thead>
           <tr>
             <th style="width:100%">Categorías</th>
